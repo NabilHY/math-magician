@@ -4,7 +4,7 @@
 
 > The Math magicien website is a single page app that allows users to :
         > Make simple calculations
-        >Read a random maht-related quote
+        >Read a random math-related quote
 
 
 ## Built With
@@ -20,7 +20,11 @@
 - text editor (e.g. VSCode)
 - terminal/CLI
 
+### Clone the repository
 
+```
+git@github.com:NabilHY/TodoList.git
+```
 
 ## Authors
 
@@ -39,3 +43,7 @@ Feel free to check the [issues page](../../issues/).
 
 Give a ⭐️ if you like this project!
 
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed
