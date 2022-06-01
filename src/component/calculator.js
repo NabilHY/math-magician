@@ -1,5 +1,7 @@
+/* eslint-disable */
+
 import React, { useState } from 'react';
-import calculate from '../logic/calculate';
+import calculate from '../logic/calculate.js';
 import './styles.css';
 
 function calculator() {
@@ -19,13 +21,12 @@ function calculator() {
   const { total, next, operation } = calculator;
   return (
     <section className="component">
+      <h3>Let&apos;s Do some Math</h3>
       <div className="calc">
         <div className="display">
-          {next}
-          {' '}
-          {operation}
-          {' '}
           {total}
+          {operation}
+          {next}
         </div>
         <div className="buttons">
           <button onClick={clickHandler} name="AC" type="button" className="btn">AC</button>
