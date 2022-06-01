@@ -2,10 +2,10 @@
 import React from 'react';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import './App.css';
-import Calculator from './component/Calculator';
-import Home from './component/Home';
-import Quote from './component/Quote';
-import NavBar from './component/Navbar';
+import Calculator from './component/Calculator.js';
+import Home from './component/Home.js';
+import Quote from './component/Quote.js';
+import NavBar from './component/Navbar.js';
 
 class App extends React.PureComponent {
   render() {

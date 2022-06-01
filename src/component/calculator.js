@@ -1,5 +1,7 @@
+/* eslint-disable */
+
 import React, { useState } from 'react';
-import calculate from '../logic/calculate';
+import calculate from '../logic/calculate.js';
 import './styles.css';
 
 function calculator() {
