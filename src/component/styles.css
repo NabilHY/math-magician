@@ -32,12 +32,6 @@ body {
   direction: rtl;
 }
 
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
 .buttons {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
