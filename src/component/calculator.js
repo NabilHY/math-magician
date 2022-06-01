@@ -19,6 +19,7 @@ function calculator() {
   const { total, next, operation } = calculator;
   return (
     <section className="component">
+      <h3>Let&apos;s Do some Math</h3>
       <div className="calc">
         <div className="display">
           {next}

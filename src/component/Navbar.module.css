@@ -1,0 +1,16 @@
+h1 {
+  color: green;
+}
+
+nav {
+  margin: 1.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link-items {
+  text-decoration: none;
+  display: flex;
+  gap: 40px;
+}
