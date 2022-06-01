@@ -22,11 +22,9 @@ function calculator() {
       <h3>Let&apos;s Do some Math</h3>
       <div className="calc">
         <div className="display">
-          {next}
-          {' '}
-          {operation}
-          {' '}
           {total}
+          {operation}
+          {next}
         </div>
         <div className="buttons">
           <button onClick={clickHandler} name="AC" type="button" className="btn">AC</button>

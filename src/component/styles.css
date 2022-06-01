@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #222;
+}
+
 .component {
   display: flex;
   justify-content: center;
@@ -18,8 +22,8 @@
 }
 
 .display {
-  color: #fff;
-  background-color: rgb(184, 182, 182);
+  color: rgb(184, 209, 181);
+  background-color: rgb(53, 51, 51);
   width: 100%;
   height: 100%;
   font-family: 'Libre Baskerville', serif;
@@ -43,16 +47,19 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .btn {
+  color: rgb(8, 49, 8);
+  background-color: rgb(184, 209, 181);
   padding: 1.5em 1.9em;
   border: 1px solid rgb(184, 182, 182);
   font-family: 'Libre Baskerville', serif;
   font-size: 1em;
+  font-weight: 900;
   width: 100%;
   height: 100%;
 }
 
 .btn:hover {
-  background-color: #c0c0c0;
+  background-color: #84e477;
 }
 
 .btn:active {
@@ -64,8 +71,8 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .methods {
-  color: #000;
-  background-color: rgb(255, 115, 0);
+  color: green;
+  background-color: #000;
 }
 
 /* styling for navbar */
@@ -77,13 +84,15 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .link-items a {
+  font-size: 1em;
+  font-family: 'Cutive Mono', monospace;
   text-decoration: none;
   color: #000;
-  font-family: 'Libre Baskerville', serif;
   padding: 0.5em;
   display: inline;
   text-indent: 0;
   list-style-type: none;
+  font-weight: bold;
 }
 
 nav a.active {

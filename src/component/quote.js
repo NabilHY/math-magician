@@ -1,3 +1,5 @@
+import './Quote.module.css';
+
 function Quote() {
   return (
     <h2>
