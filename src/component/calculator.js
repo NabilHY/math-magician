@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import calculate from '../logic/calculate.js';
 import './styles.css';
 
-function calculator() {
+function Calculator() {
   const initial = {
     total: 0,
     next: null,
@@ -54,4 +54,4 @@ function calculator() {
   );
 }
 
-export default calculator;
+export default Calculator;
