@@ -1,13 +1,14 @@
-import { render, screen } from "@testing-library/react";
-import userEvent from "@testing-library/user-event";
-import App from "../../App";
+/* eslint-disable no-unused-expressions */
+import { render, screen } from '@testing-library/react';
+import userEvent from '@testing-library/user-event';
+import App from '../../App';
 
-describe("1) when the user clicks on Home button", () => {
-  it("the home page rendered correctly", () => {
-    render(<App></App>);
-    userEvent.click(screen.getByRole("link", { name: /home/i }));
+describe('2) User clicks on Calculator button', () => {
+  it('the Calculator page rendered correctly', () => {
+    render(<App />);
+    userEvent.click(screen.getByRole('link', { name: /calculator/i }));
     expect(
-      screen.getByRole("heading", { name: /welcome to the math magicien/i })
+      screen.getByRole('heading', { name: /let's do some math/i }),
     ).toBeInTheDocument;
   });
 });
