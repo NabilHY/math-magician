@@ -174,3 +174,29 @@ exports[`Calculator component renders correctly calculator page matches snapshot
   </div>
 </section>
 `;
+
+exports[`Quote component renders correctely Quote page matches snapshot 1`] = `
+<h2>
+  Mathematics is not about numbers, equations, computaions, or algorithms: it is about understanding. William Paul Thurston
+</h2>
+`;
+
+exports[`home component renders correctely main page matches snapshot 1`] = `
+<section>
+  <h2>
+    Welcome to The Math Magicien
+  </h2>
+  <p>
+     Math magicien was built using React library
+  </p>
+  <p>
+    Feel free to navigate throught the section on this website.
+  </p>
+  <p>
+    Click on the Calculator above to open an application that does simple Math operations for you
+  </p>
+  <p>
+    Click on the quote to generate a random math related quote by a famous mathmaticien
+  </p>
+</section>
+`;
